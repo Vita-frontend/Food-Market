@@ -1,0 +1,40 @@
+.button {
+    background-color: var(--button-color);
+    border: 2px solid var(--button-color);
+    border-radius: 5px;
+    color: var(--accent-text-color);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    font-size: 0.825rem;
+    width: 10.5rem;
+    height: 3.44rem;
+    padding: 24px 36px;
+    margin: 10px;
+}
+.button:hover {
+    background-color: var(--button-color-link);
+}
+.button--primary {
+    border: 2px solid var(--button-color);
+    border-radius: 5px;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Istok Web', sans-serif;
+    font-weight: 700;
+    width: 10.5rem;
+    height: 3.44rem;
+    padding: 24px 36px;
+    margin: 10px;
+   
+}
+.button--primary:hover {
+    background-color: var(--button-color-link);
+}

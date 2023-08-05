@@ -1,0 +1,107 @@
+.header__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.header__logo-img {
+    width: 11.8125rem;
+    height: 4.625rem;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.header__call-link {
+    color: var(--main-text-color);
+}
+
+.header__call-link:hover {
+    color: var(--add-text-color);
+}
+
+.header__hero {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/main-picture.png); */
+    background-image: url(../img/main-picture.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    /* background-attachment: fixed; */
+    min-height: 51.875rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 24px;
+}
+.header__hero-button {
+display: flex;
+flex-direction: column;
+}
+.header__subtitle {
+    color: var(--main-text-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 272px;
+}
+
+.header__subtitle-color {
+    color: var(--button-color);
+
+}
+.header__products {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 90px 0 50px;
+}
+.header__products-photo {
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.header__products-text {
+    color: var(--main-text-color);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.header__products-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    margin: 20px;
+}
+
+@media (min-width: 540px) {
+    .header__subtitle {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+}
+@media (min-width: 540px) {
+    .header__hero-button {
+        display: flex;
+        flex-direction: row;
+      }
+}
+@media (min-width: 540px) {
+    .header__products {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media (min-width: 720px) {
+    .header__products {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+}
