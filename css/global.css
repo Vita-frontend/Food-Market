@@ -9,12 +9,15 @@
 
 :root {
     font-family:'Istok Web', sans-serif;
-    --main-text-color: black;
+    --main-text-color: rgb(51, 51, 51);
     --add-text-color: rgb(112, 112, 112);
     --accent-text-color: rgb(255, 255, 255);
     --accent-color: rgb(246, 153, 70);
     --button-color: rgb(169, 198, 35);
     --button-color-link: rgb(113, 134, 16);
+    --button-accent-color-link: rgb(243, 116, 5);
+    --info-color: rgb(164, 157, 152);
+    --background-color: rgb(250, 249, 248);
 }
 
 img {
@@ -31,4 +34,21 @@ img {
     color: var(--accent-color);
     font-size: 0.875rem;
     font-weight: 700;
+    padding-left: 15px;
 }
+.subtitle {
+    font-size: 2.125rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+    padding: 15px;
+}
+.text {
+    color: var(--main-text-color);
+    font-size: 1.125rem;
+    padding: 15px;
+  }
+  .subtext {
+    color: var(--add-text-color);
+    font-size: 1rem;
+    padding: 15px;
+  }
