@@ -1,0 +1,71 @@
+.choose-us {
+    background-image: url(../img/choose-us-background.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    padding: 24px;
+}
+.choose-us_container {
+  max-width: 600px;
+  padding-right: 36px;
+    
+}
+.choose-us__cards {
+padding-top: 18px;
+padding-bottom: 18px;
+}
+.choose-us__card {
+    padding-bottom: 24px;
+    display: flex;
+}
+.choose-us__text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+.choose-us__card-icon {
+    width: 50px;
+    height: 50px;
+}
+.choose-us__number {
+    background-image: url(../img/chous-us-number-background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.choose-us__number-item .number {
+    color: var(--background-color);
+    font-size: 2.125rem;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.choose-us__number-item .text {
+    color: var(--background-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+@media (min-width: 540px) {
+    .choose-us__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 768px) {
+    .choose-us__number {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+ }
+  
+  @media (min-width: 1024px) {
+    .choose-us__number {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }  
+  }
+  

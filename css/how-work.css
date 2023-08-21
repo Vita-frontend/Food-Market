@@ -1,8 +1,73 @@
-
+.how-works {
+  padding: 50px 24px;
+  text-align: center;
+}
+.how-works__cards {
+  display: grid;
+}
 .how-works__card-icon {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  align-items: center;
 }
 .how-works__card-number {
-    color: var(--accent-color);
+  color: var(--accent-color);
+}
+.how-works__offer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+.how-works__offer {
+  background-image: url(../img/photo-apples.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+}
+.how-works__offer-text {
+  color: var(--accent-text-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-left: 36px;
+  text-align: start;
+}
+.how-works__offer-title {
+  color: var(--accent-text-color);
+  display: flex;
+  flex-direction: row;
+  font-size: 2.125rem;
+  font-weight: 700;
+  padding-left: 36px;
+}
+.how-works__special {
+  background-image: url(../img/photo-orange-fruits.png);
+  background-size: cover;
+  background-position: 40% 60%;
+  min-height: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .how-works__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .how-works__cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .how-works__offer-card {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
 }

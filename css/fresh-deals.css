@@ -1,0 +1,88 @@
+.fresh-deals {
+  padding: 54px;
+}
+.fresh-deals__title {
+    text-align: center;
+}
+.fresh-deals__cards-fruits .card-fruit__item {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 272px;
+  min-height: 403px;
+}
+ .item-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--button-color);
+  font-family: "Bricolage Grotesque", sans-serif;
+  padding-bottom: 24px;
+  padding-top: 6px;
+}
+.fresh-deals__cards-vegetables .card-vegetable__item {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 272px;
+    min-height: 403px;
+}
+.fresh-deals__cards-berries .card-berries__item {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 272px;
+    min-height: 403px;
+}
+.fresh-deals__cards-nuts .card-nuts__item {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 272px;
+    min-height: 403px;
+}
+@media (min-width: 540px) {
+}
+@media (min-width: 768px) {
+  .fresh-deals__cards-fruits .card-fruit {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fresh-deals__cards-vegetables .card-vegetable {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fresh-deals__cards-berries .card-berries {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fresh-deals__cards-nuts .card-nuts {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .fresh-deals__cards-fruits .card-fruit {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .fresh-deals__cards-vegetables .card-vegetable {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .fresh-deals__cards-berries .card-berries {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .fresh-deals__cards-nuts .card-nuts {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

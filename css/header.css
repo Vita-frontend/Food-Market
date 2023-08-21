@@ -2,13 +2,13 @@
   background-color: var(--background-color);
   display: none;
   max-width: 100%;
-  }
-  .header__info-data {
-    display: flex;
-justify-content: end;
-    gap: 10px;
-    padding-right: 64px;
-  }
+}
+.header__info-data {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding-right: 64px;
+}
 .header__info-text {
   color: var(--accent-color);
   font-weight: 700;
@@ -16,10 +16,10 @@ justify-content: end;
   padding-left: 36px;
 }
 .header__info-social {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    padding-right: 64px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 64px;
 }
 .header__nav {
   display: flex;
@@ -55,11 +55,11 @@ justify-content: end;
 }
 .header__info-social-logo {
   fill: var(--info-color);
-  weight: 27px;
+  width: 27px;
   height: 27px;
 }
-.header__info-social-logo:hover{
-    fill: var(--accent-color);
+.header__info-social-logo:hover {
+  fill: var(--accent-color);
 }
 .header__info-link:hover {
   color: var(--add-text-color);
@@ -117,50 +117,49 @@ justify-content: end;
   margin: 20px;
 }
 
- .header__nav-burger {
-    display: inline-block;
-    width: 30px;
-    height: 20px;
-    position: relative;
-    cursor: pointer;
-  }
-  
- .header__nav-burger span,
- .header__nav-burger span::before,
- .header__nav-burger span::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #000; /* Колір ліній */
-  }
-  
- .header__nav-burger span::before,
- .header__nav-burger span::after {
-    position: absolute;
-  }
-  
- .header__nav-burger span::before {
-    top: -6px;
-  }
-  
- .header__nav-burger span::after {
-    bottom: -6px;
-  }
-  
-  /* Стилі для анімації бургер-меню (опціонально) */
- .header__nav-burger.active span {
-    background-color: transparent;
-  }
-  
- .header__nav-burger.active span::before {
-    transform: rotate(45deg) translate(6px, 6px);
-  }
-  
- .header__nav-burger.active span::after {
-    transform: rotate(-45deg) translate(6px, -6px);
-  }
-   
+.header__nav-burger {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header__nav-burger span,
+.header__nav-burger span::before,
+.header__nav-burger span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000; /* Колір ліній */
+}
+
+.header__nav-burger span::before,
+.header__nav-burger span::after {
+  position: absolute;
+}
+
+.header__nav-burger span::before {
+  top: -6px;
+}
+
+.header__nav-burger span::after {
+  bottom: -6px;
+}
+
+/* Стилі для анімації бургер-меню (опціонально) */
+.header__nav-burger.active span {
+  background-color: transparent;
+}
+
+.header__nav-burger.active span::before {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.header__nav-burger.active span::after {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
 
 @media (min-width: 540px) {
   .header__subtitle {

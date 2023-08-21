@@ -37,3 +37,150 @@
   height: 24px;
   margin-left: 6px;
 }
+.button--offer {
+  color: var(--accent-text-color);
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-size: 0.825rem;
+  width: 10.5rem;
+  height: 3.44rem;
+}
+.button--figs {
+  background-image: url(../img/card-figs.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--limes {
+  background-image: url(../img/card-limes.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--peaches {
+  background-image: url(../img/card-peaches.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--oranges {
+  background-image: url(../img/card-oranges.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--pepers {
+  background-image: url(../img/card-pepers.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--tomatoes {
+  background-image: url(../img/card-tomatoes.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--carrots {
+  background-image: url(../img/card-carrots.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--pumpkin {
+  background-image: url(../img/card-pumpkin.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--blueberries {
+  background-image: url(../img/card-blueberries.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--grapes {
+  background-image: url(../img/card-grapes.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--water-melon {
+  background-image: url(../img/card-water-melon.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--raspberries {
+  background-image: url(../img/card-raspberries.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--cashew {
+  background-image: url(../img/card-cashew.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--macadamia {
+  background-image: url(../img/card-macadamia.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--walnuts {
+  background-image: url(../img/card-walnuts.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+.button--pistachios {
+  background-image: url(../img/card-pistachios.png);
+  background-size: cover;
+  display: inline-block;
+  min-height: 218px;
+  min-width: 218px;
+}
+
+.button--card-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.button--card-buy {
+  background-color: var(--background-color);
+  border-color: var(--button-color);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 93px;
+  height: 43px;
+  font-size: 10.8px;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+.button--card-buy:hover {
+  background-color: var(--button-color);
+  color: var(--background-color);
+}
